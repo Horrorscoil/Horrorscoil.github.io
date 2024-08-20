@@ -1,0 +1,40 @@
+#first-paragraph {
+    color: navy;
+    background-color: goldenrod;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: #FF0000;
+    background-color: lightpink;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: #ee004b;
+}
+
+#span1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#span3 {
+    background-color: yellow;
+}
+
+#span4 {
+    font-size: 36px;
+    text-align: right;
+    background-color: lightblue;
+    font-family: Verdana, sans-serif;
+}
