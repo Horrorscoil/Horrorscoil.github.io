@@ -1,0 +1,134 @@
+#palette1-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+}
+
+#palette1-color1 {
+    background-color: #FF9FB2;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color2 {
+    background-color: #FBDCE2;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color3 {
+    background-color: #0ACDFF;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color4 {
+    background-color: #60AB9A;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color5 {
+    background-color: #DEDEE0;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-title {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+}
+
+#palette2-color1 {
+    background-color: #F03A47;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color2 {
+    background-color: #AF5B5B;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color3 {
+    background-color: #F6F4F3;
+    color: #444343;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color4 {
+    background-color: #276FBF;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color5 {
+    background-color: #183059;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#palette3-color1 {
+    background-color: #D81E5B;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color2 {
+    background-color: #E8EDDF;
+    color: #383838;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color3 {
+    background-color: #F7B2B7;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color4 {
+    background-color: #242423;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color5 {
+    background-color: #08090A;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
