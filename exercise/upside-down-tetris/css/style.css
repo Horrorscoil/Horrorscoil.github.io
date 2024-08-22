@@ -24,7 +24,22 @@
     border-color: darkblue;
 }
 
-.blue {
-    background-color: blue;
-    border-color: darkblue;
+.green {
+    background-color: lime;
+    border-color: limegreen;
+}
+
+.pink {
+    background-color: rgb(255, 0, 119);
+    border-color: rgb(192, 30, 98);
+}
+
+.yellow {
+    background-color: gold;
+    border-color: goldenrod;
+}
+
+.no-block {
+    border-color: black;
+    border-style: solid;
 }
