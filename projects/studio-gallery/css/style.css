@@ -1,0 +1,59 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#image1 {
+    width: 100px;
+    margin-top: 60px;
+    border: 10px solid black;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-style: ridge;
+    box-shadow: 3px 3px 8px black;
+}
+
+#frame1 {
+    width: 80px;
+    border: 8px solid brown;
+    border-style: ridge;
+    border-radius: 100px;
+    padding: 6px;
+    margin-top: 24px;
+    background-color: burlywood;
+}
+
+#image2 {
+    width: 100%;
+    display: block;
+    border-radius: 100px;
+}
+
+#frame2 {
+    width: 80px;
+    border: 8px solid goldenrod;
+    border-style: ridge;
+    padding: 6px;
+    margin-top: 65px;
+    background-color: antiquewhite;
+}
+
+#image3 {
+    width: 100%;
+    display: block;
+}
+
+#frame3 {
+    width: 80px;
+    border: 8px solid darkolivegreen;
+    border-style: ridge;
+    border-radius: 2px;
+    padding: 6px;
+    display: inline-block;
+    margin-top: 100px;
+    background-color: burlywood
+}
