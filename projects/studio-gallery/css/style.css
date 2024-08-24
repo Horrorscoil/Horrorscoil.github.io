@@ -6,6 +6,10 @@
 
     Good luck, and have fun!
 */
+.display-space {
+    margin: 10px;
+    display: inline-block;
+}
 
 #image1 {
     width: 100px;
