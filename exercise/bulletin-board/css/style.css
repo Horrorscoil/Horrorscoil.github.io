@@ -1,0 +1,39 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+span {
+    font-weight: bold;
+}
+
+.post-it {
+    background-color: yellow;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 24px;
+    padding: 24px;
+    font-family:'Lucida Sans', Verdana, sans-serif;
+    box-shadow: 5px 5px 5px rgb(27, 21, 21);
+}
+
+.purple {
+    background-color: lavender;
+}
+
+.pink {
+    background-color: lightpink;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+img {
+    width: 100%;
+}
