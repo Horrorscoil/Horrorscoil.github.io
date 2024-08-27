@@ -1,0 +1,104 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+#license {
+    width: 700px;
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 24px;
+    background: linear-gradient(to bottom right, rgb(255, 200, 128), rgb(245, 148, 104));
+    background-color: antiquewhite;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+    color: navy;
+    text-align: center;
+}
+
+#small-pic-container img {
+    display: inline-block;
+    width: 75px;
+}
+
+#data-fields {
+    display: inline-block;
+}
+
+#data-left div {
+    display: inline-block;
+    color: navy;
+}
+
+#data-right div {
+    display: inline-block;
+    color: navy;
+}
+
+#signature {
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor {
+    display: inline-block;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+
+}
+
+#real-id {
+    display: inline-block;
+    background-color: gold;
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+
+span {
+    color: red;
+    font-weight: bolder;
+}
+
+h4 {
+    background-color: navy;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
+h1 {
+    color: navy;
+}
+
+#adress {
+    font-style: bolder;
+}
