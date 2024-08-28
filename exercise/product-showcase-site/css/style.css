@@ -3,12 +3,13 @@
 }
 
 body {
+    background-color: #f7eade;
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
 }
 
-.single-column {
+.column {
     width: 50%;
     min-width: 400px;
     max-width: 1200px;
@@ -38,13 +39,31 @@ h3 {
 
 .container {
     background-color: #f7eade;
+    width: 50%;
+    min-width: 300px;
+    margin: 0px auto;
     padding: 48px 0px;
 }
 
-.yellow {
-    background-color: yellow;
+.white {
+    background-color: rgb(247, 243, 237);
+    padding: 48px 20px;
 }
 
-.white {
-    background-color: white;
+.yellow {
+    background-color: #ccb58a;
+    padding: 48px 20px;
+}
+
+.red {
+    background-color: #cb2329;
+}
+
+.green {
+    background-color: #89b235;
+    padding: 48px 20px;
+}
+
+.rounded {
+    border-radius: 50%;
 }
