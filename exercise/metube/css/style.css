@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(255, 211, 233);
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar main";
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**************************************** 
+HEADER STYLING SECTION 
+****************************************/
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #111111;
+}
+
+#header #tube {
+    color: #EEEEEE;
+    background-color: hotpink;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+/**************************************** 
+SIDEBAR STYLING SECTION 
+****************************************/
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(255, 167, 211);
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #111111;
+    padding: 12px;
+    display: block;
+}
+
+#sidebar ul a:hover {
+    background-color: rgb(255, 186, 220);
+    border-radius: 12px;
+}
+
+/**************************************** 
+MAIN/METUBE-ITEM STYLING SECTION 
+****************************************/
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, orange);
+    border-radius: 8px;
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
+
+.metube-item img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 900px;
+    border-radius: 8px;
+}
