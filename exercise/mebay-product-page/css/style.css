@@ -100,7 +100,6 @@ SIDEBAR ITEM
     border: 1px solid lightgray;
     border-radius: 10px;
     margin: 0px 0px 36px;
-    list-style-type: none;
     padding: 0px 10px;
 }
 
@@ -114,8 +113,12 @@ SIDEBAR ITEM
     text-decoration: none;
 }
 
+#sidebar ul {
+    list-style-type: none;
+}
+
 #sidebar li {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 #feedback {
