@@ -17,6 +17,7 @@
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.659);
     background-color: rgb(236, 250, 236);
     text-align: center;
+    justify-content: center;
 }
 
 .card-style-1 p {
