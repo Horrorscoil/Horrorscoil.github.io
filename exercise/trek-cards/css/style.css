@@ -8,16 +8,6 @@
     of the setup.css styling if you do so.
 */
 
-.card-container {
-    width: 90vm;
-    max-width: 800px;
-    margin: 48px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 36px;
-}
-
-
 .card-style-1 {
     width: 100%;
     min-width: 250px;
