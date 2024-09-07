@@ -12,7 +12,6 @@
     min-width: 250px;
     max-width: 350px;
     margin: 36px;
-    /* margin-left: 36px; */
     border: solid 15px gold;
     background: radial-gradient(
         at top left,
@@ -55,8 +54,8 @@
 
 .card-style-3 .data {
     border: solid 2px goldenrod;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 12px;
     font-weight: bold;
 }
