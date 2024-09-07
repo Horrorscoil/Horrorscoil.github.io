@@ -1,0 +1,147 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    margin: 36px;
+    /* margin-left: 36px; */
+    border: solid 15px gold;
+    background: radial-gradient(
+        at top left,
+        rgb(122, 254, 122),
+        rgb(43, 155, 43),
+        rgb(122, 254, 122)
+    );
+    border-radius: 15px;
+    padding: 0px 15px;
+    justify-content: center;
+    transition: box-shadow.5s, transform.5s;
+}
+
+#pokemon-card-3 {
+    background: radial-gradient(
+        at top left,
+        orange,
+        red,
+        orange
+    );
+}
+
+#pokemon-card-4 {
+    background: radial-gradient(
+        at top left,
+        #00f7ff,
+        #b7fdff,
+        #00f7ff
+    );
+}
+
+.card-style-3 img {
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+    border: solid 5px goldenrod;
+}
+
+
+
+.card-style-3 .data {
+    border: solid 2px goldenrod;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-style-3 .details {
+    background: linear-gradient(
+        to right,
+        goldenrod,
+        gold,
+        goldenrod
+        );
+    padding: 0px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.card-style-3 .bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-style-3 .description {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.card-style-3 .power {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-style-3 .attack {
+    border-bottom: solid 2px black;
+    padding: 10px 0px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card-style-3 .attack {
+    flex: 1;
+}
+
+.card-style-3 .pokemon-header {
+    border-bottom: solid 2px black;
+    display: flex;
+    align-items: center;
+}
+
+.card-style-3 .pokemon-header:first-child {
+    border-bottom: none;
+}
+
+.card-style-3 .pokemon-header {
+    flex: 1;
+}
+
+.card-style-3 .pokemon-header .name {
+    font-size: 25px;
+}
+
+.card-style-3 .pokemon-header .health {
+    margin-left: 85px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#pokemon-card-3 .health {
+    margin-left: 62px;
+}
+
+#pokemon-card-4 .health {
+    margin-left: 110px;
+}
+
+.energy {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.card-container .card-style-3:hover {
+    box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.291);
+    transform: translateY(-50px);
+    transform: rotate(5deg);
+}
