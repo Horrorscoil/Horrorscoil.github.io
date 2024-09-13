@@ -167,6 +167,41 @@ Cards
     transform: translateY(-20px);
 }
 
+#card-4 a {
+    text-decoration: none;
+}
+
+#card-5 a {
+    text-decoration: none;
+}
+
+.contact {
+    color: #2e2b27;
+    transition: background-color.5s, color.5s;
+}
+
+/* .contact:hover {
+    background-color: darkred;
+} */
+
+.contact h2:hover {
+    color: darkred;
+}
+
+.about {
+    color: #2e2b27;
+    transition: background-color.5s, color.5s;
+}
+
+.about h2:hover {
+    color: darkred;
+}
+
+.upperline {
+    border-top: solid darkred 3px;
+    background-color: rgba(0, 0, 0, 0.317);
+}
+
 /******************************* 
 Gallery
 *******************************/
@@ -207,4 +242,82 @@ Gallery
     height: 250px;
     flex: 1;
     object-fit: cover;
+}
+
+/******************************* 
+Hero 2
+*******************************/
+
+#hero-2 {
+    background-image: url(../images/paper.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-2 h1 {
+    font-size: 8vw;
+    margin-bottom: 2vh;
+    color: #f9f4ed;
+}
+
+#hero-2 h4 {
+    font-size: 5vw;
+    margin: 0px 1vw 0px 0px;
+    color: #f9f4ed;
+}
+
+/******************************* 
+Hero 3 
+*******************************/
+
+#hero-3 {
+    background-image: url(../images/bird.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hero-3 h1 {
+    font-size: 5vw;
+    margin-bottom: 1vh;
+    margin-left: 5vw;
+    color: #f9f4ed;
+}
+
+#hero-3 h4 {
+    font-size: 5vw;
+    margin: 0px 0px 0px 5vw;
+    margin-bottom: 30vh;
+    color: #f9f4ed;
+}
+
+/******************************* 
+Hero 3 
+*******************************/
+
+#hero-4 {
+    background-image: url(../images/window.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-4 h1 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #f9f4ed;
 }
