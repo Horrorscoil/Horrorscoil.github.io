@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +10,10 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+/*************************** 
+index-1
+***************************/
 
 #navbar {
     background-color: cadetblue;
@@ -28,7 +36,7 @@ body {
     margin-right: auto;
 }
 
-#navbar .cta-button {
+#navbar .button {
     background-color: white;
     color: green;
     border-radius: 36px;
@@ -57,39 +65,133 @@ body {
     top: 0px;
 }
 
-#footer {
-    background: linear-gradient(to bottom, teal, #01482e);
-    color: white;
-    padding: 12px;
+/*************************** 
+index-2
+***************************/
+.two {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
-#footer a {
+#navbar-2 {
+    background-color: #ffa200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 a {
     text-decoration: none;
     color: white;
+    padding: 24px;
 }
 
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
+#navbar-2 h2 {
+    color: #de0055;
 }
 
-#footer-columns-navbar {
-    width: 800px;
-    margin: 0px auto;
-    padding: 48px 0px;
-    display: flex;
-    justify-content: space-between;
+#navbar-2 .button {
+    background-color: white;
+    color: #de0055;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
 }
 
-#footer-columns-navbar a {
-    padding: 8px 0px;
+#navbar-2 {
+    position: sticky;
+    top: 0px;
 }
 
-#layout {
+#layout-2 {
     width: 800px;
     margin: 48px auto;
     font-size: 24px;
     height: 200vh;
+}
+
+#layout-2 h1 {
+    color: #de0055;
+}
+
+/*************************** 
+index-3
+***************************/
+
+#navbar-bottom {
+    background-color: #ffa600;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#header-3 {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: #570657;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#navbar-3 {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-3 h3 {
+    color: #570657;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#navbar-3 .button {
+    background-color: white;
+    color: orangered;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#layout-3 {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+    color: white;
+    font-weight: lighter;
+}
+
+#layout-3 h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.three {
+    background-color: #161616;
 }
