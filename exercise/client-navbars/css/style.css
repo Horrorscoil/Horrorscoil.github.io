@@ -9,6 +9,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #f8e5df;
 }
 
 /*************************** 
@@ -16,7 +17,7 @@ index-1
 ***************************/
 
 #navbar {
-    background-color: cadetblue;
+    background-color: #a76d5b;
     display: flex;
     justify-content: space-between;
     align-items: center;
