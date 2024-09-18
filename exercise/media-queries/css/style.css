@@ -226,10 +226,17 @@ a {
         font-size: 28px;
     }
 
-    #three-cards{
-        display: flex;
-        flex-wrap: wrap;
+    .content-container{
+        flex-direction: column;
         align-items: center;
+    }
+
+    .three-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two-cards{
         flex-direction: column;
     }
 }
