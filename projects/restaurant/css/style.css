@@ -1,0 +1,271 @@
+@import url('https://fonts.cdnfonts.com/css/cubano');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/**************
+ Navbar 
+**************/
+
+#navbar {
+    background: linear-gradient(to bottom, #f1d098, #f1e5d5);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    border-bottom: #594797 solid 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: 'Cubano', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #5847977d;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
+#navbar .cta-buttom {
+    background-color: white;
+    color: #594797;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    transition: background-color.5s, color.5s;
+}
+
+#navbar .cta-buttom:hover {
+    background-color: #594797;
+    color: aliceblue;
+    -webkit-text-stroke-width: 0px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background-color: #fcfcfc28;
+    border-radius: 100px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+/**************
+    Footer
+**************/
+#footer {
+    background: linear-gradient(to bottom, #e69f6c, #f1d098);
+    color: white;
+    padding: 12px;
+    border-top: #594797 10px solid;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+/**************
+    Layout
+**************/
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+/**************
+    Hero
+**************/
+
+#hero-1 {
+    background-image: url("../images/milkshake.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    text-align: center;
+    font-family: 'Cubano', sans-serif;
+}
+
+#hero-1 h2 {
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    margin-right: 7vw;
+    margin-top: 25vh;
+    color: white;
+    font-weight: bold;
+}
+
+#hero-1 h4 {
+    font-size: 2vw;
+    margin: 0px 8vw 0px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #594797;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 14vw 10vh 0px;
+    border-radius: 35px;
+}
+
+#hero-1 a:hover {
+    box-shadow: 16px 16px 8px rgba(60, 57, 77, 0.291);
+    transform: translateY(-5px);
+}
+
+#hero-1 img {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.816);
+    border-radius: 50%;
+    margin: 0px 14vw 10vh 0px;
+    transform: translateY(45px) translateX(185px);
+}
+
+/**************
+    Card
+**************/
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-style-2 {
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    margin: 36px;
+    margin-right: 36px;
+    border: #594797 solid 5px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.card-style-2 p {
+    text-align: left;
+    font-weight: lighter;
+}
+
+.card-style-2 img {
+    width: 100%;
+    min-width: 150px;
+    max-width: 210px;
+    border-radius: 50%;
+}
+
+.card-style-2 h2 {
+    font-size: 24px;
+    margin-top: 12px;
+    padding: 12px;
+    color: #2e2b27;
+}
+
+.card-style-2 .bold {
+    font-size: 25px;
+    padding: 0px 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card-style-2 p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    color: #2e2b27;
+}
+
+.card-container {
+    transition: box-shadow.10s, transform.10s;
+}
+
+/* .card-container .card-style-2:hover {
+    box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.291);
+    transform: translateY(-20px);
+} */
+
+.card-container h2 {
+    font-family: 'Cubano', sans-serif;
+    color: #594797;
+}
+
+p {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.card-container .order {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.card-container a p {
+    background-color: #594797;
+    padding: 20px;
+    color: white;
+    border-radius: 35px;
+}
