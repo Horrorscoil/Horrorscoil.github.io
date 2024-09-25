@@ -57,6 +57,7 @@ body {
     background-color: #594797;
     color: aliceblue;
     -webkit-text-stroke-width: 0px;
+    border-radius: 36px;
 }
 
 #navbar a {
@@ -64,11 +65,12 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 18px;
 }
 
 #navbar a:hover {
-    background-color: #fcfcfc28;
-    border-radius: 100px;
+    background-color: #fcfcfc9d;
+    border-radius: 80%;
 }
 
 #navbar #logo {
@@ -117,10 +119,63 @@ body {
 /**************
     Layout
 **************/
-#layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
+.single-column {
+    width: 80%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.light-container {
+    background-color: #f1e5d54c;
+    color: #594797;
+    padding: 48px 0px;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.single-column  .order {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.single-column a p {
+    background-color: #594797;
+    padding: 20px;
+    color: white;
+    border-radius: 35px;
+    width: 240px;
+    text-align: center;
+}
+
+.dark-container {
+    background-color: white;
+    color: #594797;
+    padding: 36px 0px;
+}
+
+h2 {
+    font-family: 'Cubano', sans-serif;
+}
+
+.dark-container p {
+    color: #2e2b27;
+}
+
+.light-container p {
+    color: #2e2b27;
+}
+
+.side-by-side {
+    display: inline;
+    width: 49%;
+}
+
+.side-by-side img {
+    padding-left: 36px;
+    width: 80%;
 }
 
 /**************
@@ -129,7 +184,7 @@ body {
 
 #hero-1 {
     background-image: url("../images/milkshake.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -173,11 +228,11 @@ body {
 }
 
 #hero-1 img {
-    width: 200px;
+    width: 150px;
     background-color: rgba(255, 255, 255, 0.816);
     border-radius: 50%;
     margin: 0px 14vw 10vh 0px;
-    transform: translateY(45px) translateX(185px);
+    transform: translateY(3px) translateX(188px);
 }
 
 /**************
@@ -211,10 +266,10 @@ body {
 }
 
 .card-style-2 img {
-    width: 100%;
-    min-width: 150px;
-    max-width: 210px;
+    width: 80%;
     border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .card-style-2 h2 {
@@ -244,11 +299,6 @@ body {
     transition: box-shadow.10s, transform.10s;
 }
 
-/* .card-container .card-style-2:hover {
-    box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.291);
-    transform: translateY(-20px);
-} */
-
 .card-container h2 {
     font-family: 'Cubano', sans-serif;
     color: #594797;
@@ -268,4 +318,241 @@ p {
     padding: 20px;
     color: white;
     border-radius: 35px;
+}
+
+/**************
+    Menu page
+**************/
+#grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 250px 30px;
+    grid-template-areas: "content sidebar .";
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#sidebar-content {
+    grid-area: sidebar;
+    padding: 18px;
+    font-size: 22px;
+}
+
+#sidebar-content h2 {
+    background-color: #594797;
+    border-radius: 35px;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+#sidebar-content ul {
+    background-color: transparent;
+    margin: 0px 0px 36px; 
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar-content a {
+    color: #2e2b27;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#sidebar-content li {
+    border-bottom: 1px solid #594797;
+    padding: 8px 0px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
+
+#main-content {
+    grid-area: content;
+    margin: 0px 36px;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Cubano', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #594797;
+}
+
+#main-content h1 {
+    margin-bottom: 40px;
+    border-bottom: #594797 solid 3px;
+}
+
+#grid-layout #main-content h2 {
+    color: #2e2b27;
+    margin-top: 100px;
+}
+
+.bigger-h2 {
+    font-size: 40px;
+}
+
+/**************
+   Menu Cards
+**************/
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-style-1 {
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-style-1 p {
+    text-align: left;
+    font-weight: lighter;
+}
+
+.card-style-1 img {
+    width: 80%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-style-1 h2 {
+    font-size: 20px;
+    margin-top: 12px;
+    padding: 12px;
+    color: #594797;
+}
+
+.card-style-1 .bold {
+    font-size: 25px;
+    padding: 0px 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card-style-1 p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    color: #2e2b27;
+}
+
+.card-container {
+    transition: box-shadow.10s, transform.10s;
+}
+
+.card-container .card-style-1 img:hover {
+    box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.291);
+    transform: translateY(-20px);
+}
+
+.card-container h2 {
+    font-family: 'Cubano', sans-serif;
+    color: #594797;
+}
+
+.card-container .order {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.card-container a p {
+    background-color: #594797;
+    padding: 20px;
+    color: white;
+    border-radius: 35px;
+}
+
+.card-container .price {
+    font-size: 30px;
+    font-weight: bolder;
+    border-top: #2e2b27 solid 1px;
+    padding-top: 10px;
+}
+
+/**************
+   Media Queries
+**************/
+@media screen and (max-width: 777px) {
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #navbar .cta-buttom {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    #hero h1{
+        font-size: 42px;
+    }
+
+    #hero h3{
+        font-size: 28px;
+    }
+
+    #grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 150px 20px;
+        grid-template-areas: "content sidebar .";
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    #main-content h1 {
+        font-size: 30px;
+    }
+
+    #main-content h2 {
+        font-size: 20px;
+    }
+
+    #main-content  {
+        font-size: 20px;
+    }
+
+    .content-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container .price {
+        font-size: 30px;
+        font-weight: bolder;
+        border-top: #2e2b27 solid 1px;
+        padding-top: 10px;
+    }
+
+    .three-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two-cards{
+        flex-direction: column;
+    }
 }
