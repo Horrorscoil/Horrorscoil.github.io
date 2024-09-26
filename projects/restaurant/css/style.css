@@ -501,9 +501,24 @@ h1 {
         text-align: center;
     }
 
+    #navbar a img {
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    #navbar a {
+        font-size: 16px;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+    }
+
     #navbar .cta-buttom {
         margin-right: 0px;
         margin-bottom: 20px;
+        margin-top: 10px;
     }
 
     #hero h1{
@@ -545,6 +560,11 @@ h1 {
         font-weight: bolder;
         border-top: #2e2b27 solid 1px;
         padding-top: 10px;
+    }
+
+    #hero-1 img {
+        visibility: hidden;
+        opacity: 0;
     }
 
     .three-cards{
