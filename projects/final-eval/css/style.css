@@ -105,6 +105,15 @@ span {
     margin-right: 0px;
 }
 
+.light-container .call {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.vs {
+    font-size: 60px;
+}
+
 .spacer {
     height: 10vh;
 }
@@ -180,5 +189,10 @@ img {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .light-container .call {
+        margin-top: 20px;
+        font-size: 15px;
     }
 }
