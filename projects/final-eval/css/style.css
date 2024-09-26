@@ -195,4 +195,10 @@ img {
         margin-top: 20px;
         font-size: 15px;
     }
+
+    #side-by-side a {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0px;
+    }
 }
